@@ -1,0 +1,59 @@
+/*
+Theme Name: Activar Glándula Pineal
+Description: Tema personalizado para curso online de activación de glándula pineal
+Version: 1.0
+Author: Ana Díaz
+*/
+
+/* Import Tailwind CSS */
+@import url('https://cdn.tailwindcss.com');
+
+/* Import Lucide Icons */
+@import url('https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css');
+
+/* Custom CSS Variables */
+:root {
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --secondary: #ec4899;
+    --accent: #f59e0b;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.btn-primary {
+    background-color: #4f46e5;
+    color: white;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.section-padding {
+    padding: 4rem 1rem;
+}
+
+@media (min-width: 640px) {
+    .section-padding {
+        padding: 4rem 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-padding {
+        padding: 4rem 2rem;
+    }
+}
